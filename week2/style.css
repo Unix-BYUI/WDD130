@@ -1,0 +1,30 @@
+*{
+    border: 1px solid;
+}
+
+img{
+    max-width: 100%;
+}
+
+li{
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+}
+
+
+
+.banner {
+    max-width: 960px;
+
+    object-fit: cover;
+}
+
+.active {
+    color: blue;
+}
+a:link,
+a:visited
+ {
+    color:salmon;
+ }

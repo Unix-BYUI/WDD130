@@ -1,0 +1,25 @@
+
+/*header{
+    font-size: 40px;
+}*/
+ol{
+    text-align: justify;
+}
+section{
+    font-size: 25px;
+    color: darkblue;
+}
+img{
+    max-width: 150px;
+}
+body {
+    background-color: pink;
+    text-align: center;
+}
+/*.center-text{
+    text-align: center;
+}*/
+.container{
+    width: 50%;
+    margin: auto;
+}
