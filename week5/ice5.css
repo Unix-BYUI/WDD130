@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+ol{
+    padding-left: 2em;
+}
+main{
+    background-color: gray;
+}
+
+img{
+    max-width: 100%;
+}
+#icons{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+#icons img{
+    max-width: 25%;
+    border-radius: 90%;
+    padding: 1%;
+    background-color: slategray;
+
+    /* Alternative sizing method
+    max-width: 1280px;
+    */
+}
+
+/*
+#desk{
+    max-width: 20%;
+    border-radius: 90%;
+    padding: 1%;
+    
+}
+#graphic{
+    max-width: 22%;
+    border-radius: 90%;
+    padding: 1%;
+}
+#person{
+    max-width: 20%;
+    border-radius: 90%;
+    padding: 1%;
+} */

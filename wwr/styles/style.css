@@ -3,6 +3,15 @@
     margin: 0 auto;
 }
 
+/*
+Making borders make sense
+*{
+    box-sizing: border-box;
+}
+ol{
+    padding-left: 2em;
+}
+*/
 /*text alignment
 */
 nav a{
