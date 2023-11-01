@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
+   
 }
 
-/*
+
 Making borders make sense
 *{
     box-sizing: border-box;
@@ -11,13 +17,14 @@ Making borders make sense
 ol{
     padding-left: 2em;
 }
-*/
+
 /*text alignment
 */
 nav a{
     text-align: center;
     color: blue;
     text-decoration: none;
+    padding: 15px 30px;
 }
 #hero-msg h1{
     text-align: center;
@@ -38,9 +45,17 @@ nav a{
 }
 body{
     background-color: #fcfbfb;
+    font-family: Slabo;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: rgba(20, 30n, 13, .7);
+    font-family: Helvetica;
+}
+h2{
+    margin: 0;
 }
 nav a:hover{
     background-color: black;
@@ -49,6 +64,7 @@ nav a:hover{
 .book, .join{
     background-color: bisque;
     text-decoration: none;
+    padding: 15px 30px;
 }
 .book:hover, .join:hover{
     background-color: black;
@@ -58,31 +74,52 @@ nav a:hover{
 }
 .msg{
     background-color: bisque;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: bisque;
     color: aqua;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
 /*
 */
 
-
+.rivers-card, .camping-card, .rapids-card   {
+    margin: 200px 0;
+}
 .home-title{
     color: black;
+     font-size: 2em;
+     margin-top: 10px;
 }
 h4{
     color: black;
 }
 .book, .join{
     color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     color: azure;
 }
-.msg h2
-.msg p
+/* .msg h2 */
+.msg p{
+    font-family: "Slabo 27px", Helvetica, sans-serif; 
+    padding-bottom: 15px;
+}
 footer a{
     color: black;
     text-decoration: none;
@@ -94,4 +131,5 @@ footer a:hover{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }

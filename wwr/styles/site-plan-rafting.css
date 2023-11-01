@@ -15,7 +15,7 @@ Fonts are separated by a & */
 
   /* change the values below to your chosen font(s) */
   --heading-font: Orbitron, sans-serif;
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --paragraph-font: Slabo, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #00518F;  /* headlines on a white background */ 
