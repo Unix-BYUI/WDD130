@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Slabo+27px&display=swap');
 
 
 #content{
@@ -10,7 +11,7 @@
 }
 
 
-Making borders make sense
+/*Making borders make sense*/
 *{
     box-sizing: border-box;
 }
@@ -20,6 +21,7 @@ ol{
 
 /*text alignment
 */
+
 nav a{
     text-align: center;
     color: blue;
@@ -36,6 +38,9 @@ nav a{
     text-align: center;
 }
 
+main section{
+    text-align: center;
+}
 
 /* Background colors
 */
@@ -92,6 +97,9 @@ main section img {
 }
 /*
 */
+h1, h4{
+    font-family: "Permanent Marker";
+}
 
 .rivers-card, .camping-card, .rapids-card   {
     margin: 200px 0;
