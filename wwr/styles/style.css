@@ -114,11 +114,16 @@ nav a:hover{
     line-height: 1.5em;
     padding: 35px;
 }
-footer{
-    background-color: bisque;
-    color: aqua;
+footer {
+    background-color: #6f7364;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer img{
+    max-width: 50px;
 }
 
 .card-img {
@@ -175,8 +180,10 @@ footer a:hover{
 }
 
 
-
-
+.home-grid{
+    display: grid;
+    grid-template-columns: 10;
+}
 .card-img, .mountains{
     width: 100%;
 }
