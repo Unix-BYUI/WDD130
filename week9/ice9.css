@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+body{
+    margin: 0;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1.4em;
+}
+.post > img{
+    width: 100%;
+}
+
+.post_heading{
+    text-align: center;
+}
+.post_head{
+    color: blue;
+    margin-bottom: .1em;
+    font-size: .8em;
+}
+.post_heading > h2{
+    margin-top: 0;
+}
+.post_footer{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+   
+}
+.post_footer > p{
+    border-right: 1px solid white;
+}
