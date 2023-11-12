@@ -235,6 +235,10 @@ footer a:hover{
 }
 
 
+.rivers img{
+max-width: 600px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
