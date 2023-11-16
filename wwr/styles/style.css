@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Slabo+27px&display=swap');
 
-
+/*Making borders make sense*/
 *{
     box-sizing: border-box;
 }
@@ -19,7 +19,7 @@ header{
 }
 
 
-/*Making borders make sense*/
+
 
 img{
     max-width: 100%;
