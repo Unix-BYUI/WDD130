@@ -3,11 +3,16 @@
 *{
     box-sizing: border-box;
 }
+
+.logo {
+    width: 80px;
+    padding-top: 10px;
+}
 /*Hero and banner*/
 #hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
+    /*margin-top: -100px;*/
 }
 #hero-img{
     grid-column: 2;
