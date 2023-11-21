@@ -43,7 +43,6 @@ body{
     grid-row: 2;
 }
 nav{
-    display: flex;
     justify-content: space-around;
 }
 
