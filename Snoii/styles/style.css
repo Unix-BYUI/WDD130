@@ -3,10 +3,24 @@
 *{
     box-sizing: border-box;
 }
-
+header{
+    background-color: #57a7ff ;
+    /* #102e4a;*/
+    font-family: Helvetica;
+}
 .logo {
     width: 80px;
     padding-top: 10px;
+}
+nav a{
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+#top a:hover{
+    background-color: #102e4a;
+    color: azure;
 }
 /*Hero and banner*/
 #hero{
@@ -24,17 +38,32 @@
 }
 /*Body*/
 body{
-    background-color: #fcfbfb;
+    background-color: #102e4a;
     font-family: Slabo;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 
+
 /*links*/
+#pages img{
+    max-width: 500px;
+}
 #pages{
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    border-top: 20px solid #d9c2a3;
+    border-bottom: 20px solid #d9c2a3;
+    background-color: #d9c2a3;
+    padding: 10%;
+}
+#pages a:hover{
+    background-color: #102e4a;
+    color: azure;
+    opacity: .6;
+    transform: scale(1.1);
 }
 .logo_link{
     grid-row: 1;
@@ -42,15 +71,22 @@ body{
 .pages-text{
     grid-row: 2;
 }
-nav{
+#top/*top nav row*/{
+    display: flex;
     justify-content: space-around;
 }
 
 /*News segments*/
-.news{
+#news{
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
+    color: #57a7ff;
+    border-top: 30px solid #102e4a;
+}
+
+#news div{
+    background-color: #d9c2a3;
 }
 
 /*images*/
@@ -61,7 +97,7 @@ img{
 
 /*footer*/
 footer {
-   /* background-color: #6f7364;*/
+   background-color: #57a7ff;
     padding: 25px 50px;
     margin-top: 200px; 
     display: flex;
