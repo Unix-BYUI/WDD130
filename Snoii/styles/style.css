@@ -81,8 +81,9 @@ body{
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-    color: #57a7ff;
+    color: blue;
     border-top: 30px solid #102e4a;
+    
 }
 
 #news div{
