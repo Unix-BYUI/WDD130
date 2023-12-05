@@ -84,10 +84,12 @@ body{
     color: blue;
     border-top: 30px solid #102e4a;
     text-align: center;   
+    
 }
 
 #news div{
     background-color: #d9c2a3;
+    border: 20px solid #d9c2a3;
 }
 
 /*images*/
@@ -109,6 +111,12 @@ grid-row: 2;
 }
 #img3{
     grid-row: 4;
+}
+
+/*Commission form*/
+#form{
+    background-color: #d9c2a3;
+    border: 20px solid #d9c2a3;
 }
 
 /*footer*/
