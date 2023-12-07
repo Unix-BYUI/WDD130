@@ -114,10 +114,18 @@ grid-row: 2;
 }
 
 /*Commission form*/
-#form{
+
+
+#commissions_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: #d9c2a3;
     border: 20px solid #d9c2a3;
 }
+#comm_image{
+    grid-column: 2;
+}
+
 
 /*footer*/
 footer {

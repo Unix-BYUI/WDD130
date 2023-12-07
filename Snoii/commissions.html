@@ -20,51 +20,66 @@
       </nav>
     </header>
     <!--deposit box-->
-    <div id="content">
-      <section id="form">
-        <label for=""></label>
+    <div id="commissions_content">
+      
         <form action="commissions.html">
-          <label for="email">email</label>
-          <input type="email" name="email" id="email" /> <br>
-          <label for="commissions">Commission Type</label>
+          <p>
+          <label for="email">Name or email</label>
+          <input type="email" name="email" id="email" /> </p>
+          <fieldset>
+          <label for="commissions">Commission Type and amount</label>
+          
+          <p>
           <input type="radio" id="Icon" name="comm" value="">
           <label>Icon</label>
           <input type="text" id="Icon_qty" name="">
-          <br>
+         </p>
+         <p>
           <input type="radio" id="Flat_Full" name="comm" value="">
           <label>Flat Fullbody</label>
           <input type="text" id="Flat_Full_qty" name="">
-          <br>
+        </p>
+        <p>
           <input type="radio" id="Shaded_Full" name="comm" value="">
           <label>Shaded Fullbody</label>
           <input type="text" id="Shaded_Full_qty" name="">
-          <br>
+        </p>
+        <p>
           <input type="radio" id="Detailed" name="comm" value="">
           <label>Detailed character + Background</label>
           <input type="text" id="Detailed_qty" name="">
+        </p>
+      
+        <p>
+          <label>References</label>
+          <input type="file" id="References" name="comm" value="">
+        </p>
+      </fieldset>
           <button>Submit</button>
         </form>
-<img src="images/Comm_sheet.png" alt="Commission Sheet. Icons $5, Flat color fullbody $7, shaded fullbody $10, detailed character and background $20.">
-      </section>
-      <footer>
-        <p>SnoiiFox © 2023</p>
-        <div class="social">
-          <a href="https://facebook.com" target="_blank">
-            <img src="images/facebook.png" alt="fb icon" />
-          </a>
-          <a href="https://twitter.com" target="_blank">
-            <img src="images/twitter.png" alt="twitter icon" />
-          </a>
-          <a href="https://instagram.com" target="_blank">
-            <img src="images/instagram.png" alt="instagram icon" />
-          </a>
-        </div>
-        <!--        Input notes 
-        <input type="text" />
-        <p>text</p>
-        <label for="spoof">spoof</label>
-        <input type="radio" name="spoof" id="spoof" /> -->
-      </footer>
+        <img src="images/Comm_sheet.png" id="comm_image" 
+        alt="Commission Sheet. Icons $5, Flat color fullbody $7, shaded fullbody $10, detailed character and background $20.">
+      
+
     </div>
+    <footer>
+      <p>SnoiiFox © 2023</p>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank">
+          <img src="images/facebook.png" alt="fb icon" />
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img src="images/twitter.png" alt="twitter icon" />
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="images/instagram.png" alt="instagram icon" />
+        </a>
+      </div>
+      <!--        Input notes 
+      <input type="text" />
+      <p>text</p>
+      <label for="spoof">spoof</label>
+      <input type="radio" name="spoof" id="spoof" /> -->
+    </footer>
   </body>
 </html>
