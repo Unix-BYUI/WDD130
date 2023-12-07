@@ -179,7 +179,7 @@ footer img{
     #pages { 
         display: flex;
         margin: 50px auto;
-        width: 60%;
+        width: 40%;
     }
     #background {
         display: none;
